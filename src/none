@@ -1,0 +1,25 @@
+<div style={{ margin: '10%', marginTop: '5%' }}>
+					<GridComponent
+						dataSource={row}
+						allowPaging={true}
+						pageSettings={{ pageSize: 20 }}
+						allowFiltering={true}
+						allowGrouping={true}
+					>
+						<ColumnsDirective>
+							<ColumnDirective type="checkbox" width="50">
+								<TurnedInNotIcon />
+							</ColumnDirective>
+							<ColumnDirective field="ifsc" headerText="ifsc" width="100" />
+							<ColumnDirective field="bank_id" headerText="bank_id" width="150" />
+							<ColumnDirective field="branch" headerText="branch" width="150" />
+							<ColumnDirective field="address" headerText="address" width="150" />
+							<ColumnDirective field="city" headerText="city" width="150" />
+							<ColumnDirective field="district" headerText="district" />
+							<ColumnDirective field="state" headerText="state" width="150" />
+							<ColumnDirective field="bank_name" headerText="bank_name" width="150" />
+						</ColumnsDirective>
+
+						<Inject services={[Page, Filter]} />
+					</GridComponent>
+				</div>
