@@ -1,7 +1,8 @@
-<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
+<img align="left" src="https://user-images.githubusercontent.com/76579213/117249999-2bced200-ae60-11eb-9ed6-4dd549d9f6da.png" height="50" alt="react icon"/>
 <h2>React To Recipes</h2>
 <p>
-⭐ Using React and materialUi as front-end. 
+⭐ Using React front-end framework.<br/> ⭐ Use materialUi for style and table+pagination.<br/> ⭐ Call the api using axios and use SWR to cache the response. <br/> ⭐ Use localStorage as data storage of watchlist.
+ <br/> ⭐ Use user location to get banks near by users current location.
 </p>
 <h3>:eye_speech_bubble: Live demo</h3>
 Check live demonstration <a href="https://bank-search.netlify.app/"><strong>here</strong></a>
